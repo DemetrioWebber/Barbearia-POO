@@ -31,7 +31,7 @@ public class agendamento{
 			System.out.print("Digite o serviço necessitado, barba ou cabelo?: ");
 			this.servico = sc.next();
 			System.out.println("Você será atendido pelo nosso Profissional: "+ profissional.getNome());
-			System.out.println(profissional.getNome()+" Possui experiencia de "+profissional.getTempoExperiencia()+" anos!");
+			System.out.println(profissional.getNome()+" Possui experiencia de "+profissional.getTempoExperiencia()+"!");
 			System.out.println("O valor do corte vai ficar: R$"+profissional.getValorCorte());
 			this.profissional = profissional;
 			setServico(servico);
